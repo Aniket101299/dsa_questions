@@ -34,8 +34,9 @@ function runProgram(input) {
     
     
     
-    if (process.env.USER === "") {
-      runProgram(``);
+    if (process.env.USERNAME === "ASUS") {
+      runProgram(`10
+      4 6 7 9 10 -1 0 1 2 3`);
     } else {
       process.stdin.resume();
       process.stdin.setEncoding("ascii");
