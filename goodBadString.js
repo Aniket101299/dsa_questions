@@ -21,8 +21,11 @@ function GoodBad(arr){
 
 
 
-if (process.env.USER === "") {
-  runProgram(``);
+if (process.env.USERNAME === "ASUS") {
+  runProgram(`3
+  abb
+  aaab
+  ababa`);
 } else {
   process.stdin.resume();
   process.stdin.setEncoding("ascii");
