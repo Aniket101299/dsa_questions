@@ -22,9 +22,6 @@ if(num<60) {
   
   
   
-  
-  
-  
  
   if (process.env.USERNAME === "ASUS") {
     runProgram(`126`);
